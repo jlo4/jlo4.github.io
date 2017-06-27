@@ -16,3 +16,7 @@ body {
 	background-color: #494342;
 	border: 2px solid black;
 }
+
+.attached.button {
+	background-color: #494342;
+}
