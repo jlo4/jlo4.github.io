@@ -4,6 +4,10 @@ body {
 	  background: linear-gradient(to right, #093028, #237a57); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+h1 {
+	color: white;
+}
+
 .aligned {
 	margin-top: 40px;
 }
