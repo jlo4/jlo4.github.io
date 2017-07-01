@@ -20,3 +20,7 @@ body {
 .attached.button {
 	background-color: #494342;
 }
+
+.ui .grid {
+	margin-top: 50px;
+}
