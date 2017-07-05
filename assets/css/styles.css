@@ -1,30 +1,114 @@
+/*body { */
+	  /*background: #093028; /* fallback for old browsers */
+	  /*background: -webkit-linear-gradient(to right, #093028, #237a57); /* Chrome 10-25, Safari 5.1-6 */*/
+	  /*background: linear-gradient(to right, #093028, #237a57); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */*/*/
+/*}*/
+@import url("header.css")
+
+html {
+  font-family: sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
 body {
-	  background: #093028; /* fallback for old browsers */
-	  background: -webkit-linear-gradient(to right, #093028, #237a57); /* Chrome 10-25, Safari 5.1-6 */
-	  background: linear-gradient(to right, #093028, #237a57); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	height: 100%;
+  margin: 0;
+	width: 100%;
 }
 
-h1 {
-	color: white;
+.info-box {
+	float: left;
+  width: 30%;
+  height: 30%;
+  margin: 200px auto;
 }
 
-.aligned {
-	margin-top: 40px;
+.info-box ul {
+  padding-left: 0;
+  margin-top: 0;
 }
 
-/*.grid {
+.info-box li {
+  float: left;
+  list-style-type: none;
+  width: 150px;
+}
+
+.info-box li a {
+  display: inline-block;
+  text-decoration: none;
+  width: 100%;
+  line-height: 3;
+  background-color: red;
+  color: black;
+  text-align: center;
+}
+
+.info-box li a:focus, .info-box li a:hover {
+  background-color: #a60000;
+  color: white;
+}
+
+.info-box li a.active {
+  background-color: #a60000;
+  color: white;
+}
+
+.info-box .panels {
+  height: 352px;
+  position: relative;
+  clear: both;
+}
+
+.info-box article {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 352px;
+  padding: 10px;
+  color: white;
+  background-color: #a60000;
+}
+
+.info-box .active-panel {
+  z-index: 1;
+}
+
+.content {
+	background: purple;
+	float: left;
+	height: 100%;
+	margin: 200px 0;
+	width: 70%;
+}
+
+.flex-row {
+	display: flex;
+	flex-flow: row wrap;
+	height: 100%;
 	margin: 0;
-}*/
-
-.column {
-	background-color: #494342;
-	border: 2px solid black;
+	padding: 0;
+	width: 100%;
 }
 
-.attached.button {
-	background-color: #494342;
+.project {
+	height: 20%;
+	width: 20%
 }
 
-.ui .grid {
-	margin-top: 50px;
+.button {
+	height: 50%;
+	width: 50%;
+}
+a {
+	height: 20%;
+	width: 20%;
+}
+
+img {
+	height: 100%;
+	width: 100%;
 }

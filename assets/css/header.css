@@ -1,0 +1,92 @@
+header {
+  background: white;
+  border-bottom: black;
+  display: block;
+  height: 3.08rem;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+nav {
+   margin: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+nav ul li {
+  display: inline;
+}
+
+.nav-left {
+  float: left;
+}
+
+.fa-bars {
+  float: left;
+  margin: 18px 0 0 35px;
+}
+
+img {
+  float: left;
+  height: 60px;
+  padding: 0 0 20px 0;
+  width: 110px;
+}
+
+nav form {
+  display: inline-block;
+  float: left;
+  margin-top: .7rem;
+  margin-left: 4.5rem;
+  margin-bottom: 2.5rem;
+}
+
+input[placeholder] {
+  font: 'Roboto', sans-serif;
+  font-size: 16px;
+  padding: 1.8px 4.8px;
+}
+
+.fa-search {
+  color: gray;
+  height: 20px;
+}
+
+.nav-right {
+  float: right;
+}
+
+
+nav form input {
+  float: left;
+  height: 20px;
+  width: 568px;
+}
+
+
+
+nav form button {
+  float: left;
+  font-size: 16px;
+  height: 1.75rem;
+  width: 4rem;
+}
+
+.fa-upload {
+  font-size: 1.3rem;
+  margin: 13px 20px 0 20px;
+}
+
+.fa-bell-o {
+  font-size: 1.3rem;
+  margin: 13px 3px 0 20px;
+}
+.fa-user-circle {
+  font-size: 1.3rem;
+  margin: 13px 20px 0 20px;
+  padding-right: 10px;
+}

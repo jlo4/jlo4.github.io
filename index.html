@@ -3,80 +3,117 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Portfolio Page</title>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/semantic.min.css">
-	<!-- <link rel="stylesheet" href="https://rawgit.com/jlo4/portfolio/master/assets/css/styles.css"> -->
+	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/semantic.min.css"> -->
+	<link rel="stylesheet" href="https://rawgit.com/jlo4/portfolio/master/assets/css/styles.css">
 	<link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
-	<div class="ui inverted menu">
-  <a class="active item">
-    Home
-  </a>
-  <a class="item" href="https://github.com/jlo4" target="_blank">
-    Github Page
-  </a>
- <!--  <a class="item">
-    Friends
-  </a> -->
-  <div class="right menu">
-    <div class="item">
-      <div class="ui icon input">
-        <input type="text" placeholder="Search...">
-        <i class="search link icon"></i>
-      </div>
-    </div>
-    <a class="ui item">
-      Logout
-    </a>
+	<header>
+        <nav>
+          <div class="nav-left">
+            <ul>
+              <li>
+                <i class="fa fa-bars" aria-hidden="true"></i>
+              </li>
+              <li>
+                  <img src="assets/img/yt-logo.png" alt="YouTube Logo">
+              </li>
+              <li>
+                <form action="">
+                  <input type="text" size="80" placeholder="Suchen">
+                  <button><i class="fa fa-search" aria-hidden="true"></i></button>
+                </form>
+              </li>
+            </ul>
+          </div>
+          <div class="nav-right">
+            <ul>
+              <li><i class="fa fa-upload" aria-hidden="true"></i></li>
+              <li><i class="fa fa-bell-o" aria-hidden="true"></i></li>
+              <li><i class="fa fa-user-circle" aria-hidden="true"></i></li>
+            </ul>
+          </div>
+        </nav>
+    </header>
+		<section class="info-box">
+  <ul>
+    <li><a href="#">Tab 1</a></li>
+    <li><a href="#">Tab 2</a></li>
+    <li><a href="#">Tab 3</a></li>
+  </ul>
+  <div class="panels">
+    <article class="active-panel">
+      <h2>Home</h2>
+
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque turpis nibh, porttitor nec venenatis eu, pulvinar in augue. Vestibulum et orci scelerisque, vulputate tellus quis, lobortis dui. Vivamus varius libero at ipsum mattis efficitur ut nec nisl. Nullam eget tincidunt metus. Donec ultrices, urna maximus consequat aliquet, dui neque eleifend lorem, a auctor libero turpis at sem. Aliquam ut porttitor urna. Nulla facilisi.</p>
+    </article>
+    <article>
+      <h2>  <a class="item" href="https://github.com/jlo4" target="_blank">
+			    Github Page
+			  </a></h2>
+
+      <p>This tab hasn't got any Lorem Ipsum in it. But the content isn't very exciting all the same.</p>
+    </article>
+    <article>
+      <h2>The third tab</h2>
+
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque turpis nibh, porttitor nec venenatis eu, pulvinar in augue. And now an ordered list: how exciting!</p>
+
+      <ol>
+        <li>dui neque eleifend lorem, a auctor libero turpis at sem.</li>
+        <li>Aliquam ut porttitor urna.</li>
+        <li>Nulla facilisi</li>
+      </ol>
+    </article>
   </div>
-</div>
-<<<<<<< HEAD
-	<div class="ui grid">
-  <div class="four wide column">
-    <div class="ui vertical fluid tabular menu">
-    <div class="ui huge header">
-			Portfolio
+</section>
+      <div class="content">
+			  <div class="flex-row">
+					<div class="project">
+			  	<a href="https://rawgit.com/jlo4/color-game/master/Color%20Game/colorGame.html" target="_blank">
+	  				<img src="assets/photos/colorgame.png">
+				</a>
+			    <div class="button">
+			    	<a href="https://rawgit.com/jlo4/color-game/master/Color%20Game/colorGame.html" target="_blank">Color Game</a>
+			    </div>
+					</div>
+
+					<div class="project">
+						<a href="https://rawgit.com/jlo4/imagegallery/master/Photo%20Gallery/gallery.html" target="_blank">
+		  				<img src="assets/photos/colorgame.png">
+						</a>
+					</div>
+					<div class="project">
+						<a href="https://rawgit.com/jlo4/imagegallery/master/Photo%20Gallery/gallery.html" target="_blank">
+		  				<img src="assets/photos/colorgame.png">
+						</a>
+					</div>
+					<div class="project">
+						<a href="https://rawgit.com/jlo4/imagegallery/master/Photo%20Gallery/gallery.html" target="_blank">
+		  				<img src="assets/photos/colorgame.png">
+						</a>
+					</div>
+					<div class="project">
+					 <a href="https://rawgit.com/jlo4/google-homepage/master/index.html" target="_blank" class="ui medium image">
+						 <img src="/images/wireframe/image-text.png">
+				 </a>
+			 </div>
+			 <div class="project">
+				<a href="https://rawgit.com/jlo4/google-homepage/master/index.html" target="_blank" class="ui medium image">
+					<img src="/images/wireframe/image-text.png">
+			</a>
 		</div>
-      <a class="active item">
-        Bio
-      </a>
-      <a class="item">
-        Pics
-      </a>
-      <a class="item">
-        Companies
-      </a>
-      <a class="item">
-        Links
-      </a>
-    </div>
-  </div>
-  <!-- <div class="twelve wide stretched column"> -->
-    <!-- <div class="ui segment">
-      <div class="ui divider"> -->
-      <div class="ui grid">
-		<div class="ui four column grid container">
-		  <div class="column">
-		  	<a href="https://rawgit.com/jlo4/color-game/master/Color%20Game/colorGame.html" target="_blank" class="ui medium image">
-  				<img src="assets/photos/colorgame.png">
-			</a>
-		    <div class="ui bottom attached button" tabindex="0">
-		    <a href="https://rawgit.com/jlo4/color-game/master/Color%20Game/colorGame.html" target="_blank">Color Game</a>
+			</div>
+
+				<!-- </div>
+		    <div class="button" tabindex="0"> -->
+		    <!-- <a href="https://rawgit.com/jlo4/imagegallery/master/Photo%20Gallery/gallery.html" target="_blank">Image Gallery</a>
 		    </div>
-		  </div>
-		  <div class="column">
-		  	<a href="https://rawgit.com/jlo4/imagegallery/master/Photo%20Gallery/gallery.html" target="_blank" class="ui medium image">
-  				<img src="/images/wireframe/image-text.png">
-			</a>
-		    <div class="ui bottom attached button" tabindex="0">
-		    <a href="https://rawgit.com/jlo4/imagegallery/master/Photo%20Gallery/gallery.html" target="_blank">Image Gallery</a>
-		    </div>
-		  </div>
 		  <div class="column">
 		  	<a href="https://rawgit.com/jlo4/google-homepage/master/index.html" target="_blank" class="ui medium image">
   				<img src="/images/wireframe/image-text.png">
 			</a>
-		    <div class="ui bottom attached button" tabindex="0">
+		    <div class="button" tabindex="0">
 		    <a href="https://rawgit.com/jlo4/google-homepage/master/index.html" target="_blank">Google Home Page</a>
 		    </div>
 		  </div>
@@ -84,7 +121,7 @@
 		  	<a href="https://rawgit.com/jlo4/tribute-page/master/index.html" target="_blank" class="ui medium image">
   				<img src="assets/photos/tribute.png">
 			</a>
-		    <div class="ui bottom attached button" tabindex="0">
+		    <div class="button" tabindex="0">
 		    <a href="https://rawgit.com/jlo4/tribute-page/master/index.html" target="_blank">Tribute Page</a>
 		    </div>
 		  </div>
@@ -92,7 +129,7 @@
 		  	<a href="https://rawgit.com/jlo4/colorpad/master/index.html" target="_blank" class="ui medium image">
   				<img src="assets/photos/colorpad.png">
 			</a>
-		    <div class="ui bottom attached button" tabindex="0">
+		    <div class="button" tabindex="0">
 		    	<a href="https://rawgit.com/jlo4/colorpad/master/index.html" target="_blank">
 		    	Color Pad
 		    	</a>
@@ -102,7 +139,7 @@
 		  	<a href="https://rawgit.com/jlo4/survey-form/master/index.html" target="_blank" class="ui medium image">
   				<img src="assets/photos/survey_form.png">
 			</a>
-		    <div class="ui bottom attached button" tabindex="0">
+		    <div class="button" tabindex="0">
 		    	<a href="https://rawgit.com/jlo4/survey-form/master/index.html" target="_blank">Survey Form</a>
 		    </div>
 		  </div>
@@ -110,27 +147,15 @@
 		  	<a href="https://rawgit.com/jlo4/random-quote-generator/master/index.html" target="_blank" class="ui medium image">
   				<img src="assets/photos/quote_gen.png">
 			</a>
-		    <div class="ui bottom attached button" tabindex="0">
+		    <div class="button" tabindex="0">
 		    	<a href="https://rawgit.com/jlo4/random-quote-generator/master/index.html" target="_blank">Random Quote Generator</a>
 		    </div>
 		  </div>
 		  <div class="column">
-		    <div class="ui bottom attached button" tabindex="0"><a href="https://rawgit.com/jlo4/tribute-page/master/index.html" target="_blank">Tribute Page</a></div>
+		    <div class="button" tabindex="0"><a href="https://rawgit.com/jlo4/tribute-page/master/index.html" target="_blank">Tribute Page</a></div>
 		  </div>
 		</div>
-		</div>
-	</div>
-    </div>
-  </div>
-</div>
 
-	<!-- <div class="ui container centered aligned">
-	<div class="ui sizer vertical segment">
-		<div class="ui huge header">
-			Portfolio
-		</div>
-	</div>
-	
-	</div> -->
+	<script src="assets/js/panels.js"></script>
 </body>
 </html>
