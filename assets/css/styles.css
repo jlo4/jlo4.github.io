@@ -3,7 +3,7 @@
 	  /*background: -webkit-linear-gradient(to right, #093028, #237a57); /* Chrome 10-25, Safari 5.1-6 */*/
 	  /*background: linear-gradient(to right, #093028, #237a57); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */*/*/
 /*}*/
-@import url("header.css")
+/*@import url("header.css")*/
 
 html {
   font-family: sans-serif;
@@ -19,11 +19,38 @@ body {
 	width: 100%;
 }
 
+header {
+  background: white;
+  border-bottom: black;
+  display: block;
+  height: 3.08rem;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+nav {
+   margin: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+nav ul li {
+  display: inline;
+}
+
+.nav-right {
+  float: right;
+}
+
 .info-box {
 	float: left;
   width: 30%;
   height: 30%;
-  margin: 200px auto;
+  margin: 100px auto;
 }
 
 .info-box ul {
@@ -34,7 +61,7 @@ body {
 .info-box li {
   float: left;
   list-style-type: none;
-  width: 150px;
+  width: 33.33%;
 }
 
 .info-box li a {
@@ -81,7 +108,7 @@ body {
 	background: purple;
 	float: left;
 	height: 100%;
-	margin: 200px 0;
+	margin: 100px 0;
 	width: 70%;
 }
 
