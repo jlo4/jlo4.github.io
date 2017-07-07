@@ -4,8 +4,8 @@
 	<meta charset="UTF-8">
 	<title>Portfolio Page</title>
 	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/semantic.min.css"> -->
-	<link rel="stylesheet" href="https://rawgit.com/jlo4/portfolio/master/assets/css/styles.css">
-	<link rel="stylesheet" href="https://rawgit.com/jlo4/portfolio/master/assets/css/header.css">
+	<!-- <link rel="stylesheet" href="https://rawgit.com/jlo4/portfolio/master/assets/css/styles.css">
+	<link rel="stylesheet" href="https://rawgit.com/jlo4/portfolio/master/assets/css/header.css"> -->
 	<link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
@@ -25,72 +25,72 @@
           </div>
         </nav>
     </header>
-		<section class="info-box">
-  <ul>
-    <li><a href="#">Tab 1</a></li>
-    <li><a href="#">Tab 2</a></li>
-    <li><a href="#">Tab 3</a></li>
-  </ul>
+		<section class="sidebar">
+			  <ul class="sidebar-tabs">
+			    <li><a id="tab1" href="#">Tab 1</a></li>
+			    <li><a id="tab2" href="#">Tab 2</a></li>
+			    <li><a id="tab3" href="#">Tab 3</a></li>
+			  </ul>
   <div class="panels">
-    <article class="active-panel">
-      <h2>Home</h2>
-
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque turpis nibh, porttitor nec venenatis eu, pulvinar in augue. Vestibulum et orci scelerisque, vulputate tellus quis, lobortis dui. Vivamus varius libero at ipsum mattis efficitur ut nec nisl. Nullam eget tincidunt metus. Donec ultrices, urna maximus consequat aliquet, dui neque eleifend lorem, a auctor libero turpis at sem. Aliquam ut porttitor urna. Nulla facilisi.</p>
-    </article>
-    <article>
-      <h2>  <a class="item" href="https://github.com/jlo4" target="_blank">
-			    Github Page
-			  </a></h2>
-
-      <p>This tab hasn't got any Lorem Ipsum in it. But the content isn't very exciting all the same.</p>
-    </article>
-    <article>
-      <h2>The third tab</h2>
-
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque turpis nibh, porttitor nec venenatis eu, pulvinar in augue. And now an ordered list: how exciting!</p>
-
-      <ol>
-        <li>dui neque eleifend lorem, a auctor libero turpis at sem.</li>
-        <li>Aliquam ut porttitor urna.</li>
-        <li>Nulla facilisi</li>
-      </ol>
-    </article>
+			<div id="show1" class="odin show">
+				<h2>Odin Projects</h2>
+				<h3>HTML/CSS Projects</h3>
+				<ul>
+					<li>Colorpad</li>
+					<li>Image Carousel</li>
+				</ul>
+				<h3>Javascript/jQuery Projects</h3>
+				<ul>
+					<li>Colorpad</li>
+					<li>Image Carousel</li>
+				</ul>
+			</div>
+			<div id="show2" class="fcc hide">
+				<h2>FCC Projects</h2>
+				<ul>
+					<li>Tribute Page</li>
+					<li>Survey Form</li>
+					<li>Random Quote Generator</li>
+				</ul>
+			</div>
+			<div id="show3" class="project hide">
+			</div>
   </div>
 </section>
-      <div class="content">
+      <div id="content">
 			  <div class="flex-row">
-					<div class="project all odin">
+					<div class="project odin">
 			  	<a href="https://rawgit.com/jlo4/color-game/master/Color%20Game/colorGame.html" target="_blank">
 	  				<img src="assets/photos/colorgame.png">
-				</a>
+					</a>
 			    <div class="button">
 			    	<a href="https://rawgit.com/jlo4/color-game/master/Color%20Game/colorGame.html" target="_blank">Color Game</a>
 			    </div>
 					</div>
 
-					<div class="project all odin">
+					<div class="project odin">
 						<a href="https://rawgit.com/jlo4/imagegallery/master/Photo%20Gallery/gallery.html" target="_blank">
 		  				<img src="assets/photos/colorgame.png">
 						</a>
 					</div>
-					<div class="project all odin">
+					<div class="project odin">
 						<a href="https://rawgit.com/jlo4/imagegallery/master/Photo%20Gallery/gallery.html" target="_blank">
 		  				<img src="assets/photos/colorgame.png">
 						</a>
 					</div>
-					<div class="project all fcc">
+					<div class="project fcc">
 						<a href="https://rawgit.com/jlo4/imagegallery/master/Photo%20Gallery/gallery.html" target="_blank">
 		  				<img src="assets/photos/colorgame.png">
 						</a>
 					</div>
-					<div class="project all fcc">
+					<div class="project fcc">
 					 <a href="https://rawgit.com/jlo4/google-homepage/master/index.html" target="_blank" class="ui medium image">
-						 <img src="/images/wireframe/image-text.png">
+						 <!-- <img src="/images/wireframe/image-text.png"> -->
 				 </a>
 			 </div>
-			 <div class="project all fcc">
+			 <div class="project fcc">
 				<a href="https://rawgit.com/jlo4/google-homepage/master/index.html" target="_blank" class="ui medium image">
-					<img src="/images/wireframe/image-text.png">
+					<!-- <img src="/images/wireframe/image-text.png"> -->
 			</a>
 		</div>
 			</div>
@@ -146,6 +146,11 @@
 		  </div>
 		</div>
 -->
-	<script src="https://rawgit.com/jlo4/portfolio/master/assets/js/panels.js"></script>
+<script
+src="https://code.jquery.com/jquery-3.2.1.min.js"
+integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+crossorigin="anonymous"></script>
+	<script src="assets/js/effects.js"></script>
+	<!-- <script src="https://rawgit.com/jlo4/portfolio/master/assets/js/panels.js"></script> -->
 </body>
 </html>
