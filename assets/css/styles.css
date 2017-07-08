@@ -1,19 +1,11 @@
 @import url("header.css");
 
-/*body {*/
-	  /*background: #093028; /* fallback for old browsers */*/
-	  /*background: -webkit-linear-gradient(to right, #093028, #237a57); /* Chrome 10-25, Safari 5.1-6 */*/
-	  /*background: linear-gradient(to right, #093028, #237a57); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */*/
-/*}*/
 
 
 html {
   font-family: sans-serif;
 }
 
-* {
-  box-sizing: border-box;
-}
 
 body {
 	background: #6190E8;  /* fallback for old browsers */
@@ -22,6 +14,11 @@ body {
 	height: 100%;
   margin: 0;
 	width: 100%;
+}
+
+#page {
+  height: 100%;
+  width: 100%;
 }
 /*
 header {
@@ -55,8 +52,8 @@ nav ul li {
   background: lightgray;
   float: left;
   height: 40%;
-  margin: 91px 0;
-  width: 20%;
+  margin: 100px 0;
+  width: 350px;
 }
 
 .sidebar-tabs {
@@ -76,9 +73,13 @@ nav ul li {
   margin-left: 5px;
 }
 
-.sidebar-tabs li:first-child {
+.sidebar-tabs li:(odd) {
   display: inline;
   margin-left: 5px;
+}
+
+.sidebar-tabs:nth-child(2) {
+
 }
 
 .panels {
