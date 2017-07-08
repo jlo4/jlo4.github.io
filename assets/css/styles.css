@@ -55,25 +55,34 @@ nav ul li {
   background: lightgray;
   float: left;
   height: 40%;
-  margin: 91px 20px;
+  margin: 91px 0;
   width: 20%;
 }
 
 .sidebar-tabs {
   border-bottom: 2px solid red;
+  float: left;
+  margin-left: 0;
+  -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 0px;
 }
 
 .sidebar-tabs li {
+  font-size: 1.23rem;
   display: inline;
-  margin-left: 20px;
+  margin-left: 5px;
 }
 
 .sidebar-tabs li:first-child {
   display: inline;
-  margin-left: 40px;
+  margin-left: 5px;
 }
 
 .panels {
+
 }
 
 .hide {
@@ -109,7 +118,8 @@ nav ul li {
 	height: 50%;
 	width: 50%;
 }
-a {
+
+.project a {
 	height: 20%;
 	width: 20%;
 }
