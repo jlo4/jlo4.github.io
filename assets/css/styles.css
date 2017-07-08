@@ -12,14 +12,14 @@ body {
   background: -webkit-linear-gradient(to right, #A7BFE8, #6190E8);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #A7BFE8, #6190E8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	height: 100%;
-  margin: 0;
+  margin: 0 auto;
 	width: 100%;
 }
 
-#page {
+/*#page {
   height: 100%;
   width: 100%;
-}
+}*/
 /*
 header {
   background: white;
@@ -50,10 +50,11 @@ nav ul li {
 
 .sidebar {
   background: lightgray;
+  clear: left;
   float: left;
   height: 40%;
-  margin: 100px 0;
-  width: 350px;
+  margin: 91px 0 0 5%;
+  width: 400px;
 }
 
 .sidebar-tabs {
@@ -68,22 +69,17 @@ nav ul li {
 }
 
 .sidebar-tabs li {
-  font-size: 1.23rem;
+  font-size: 1rem;
   display: inline;
-  margin-left: 5px;
 }
 
-.sidebar-tabs li:(odd) {
+/*.sidebar-tabs li:(odd) {
   display: inline;
-  margin-left: 5px;
-}
+  margin-left: 2px;
+}*/
 
-.sidebar-tabs:nth-child(2) {
-
-}
-
-.panels {
-
+#clearleft {
+  clear: left;
 }
 
 .hide {
@@ -96,9 +92,9 @@ nav ul li {
 
 #content {
 	float: left;
-	height: 100%;
+	height: 80%;
 	margin: 91px 0;
-	width: 68.01%;
+	width: 68.6%;
 }
 
 .flex-row {
@@ -111,8 +107,8 @@ nav ul li {
 }
 
 .project {
-	height: 20%;
-	width: 20%;
+	height: 30%;
+	width: 30%;
 }
 
 .button {

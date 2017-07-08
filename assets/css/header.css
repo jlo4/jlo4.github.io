@@ -1,20 +1,15 @@
-header {
+#nav {
   background: lightgray;
   border-bottom: black;
-  display: block;
+  float: left;
   height: 3.08rem;
-  margin: 0;
+  margin: 2% 0 0 15%;
   padding: 0;
-  width: 100%;
-}
-
-nav {
-   margin: 0;
+  width: 50%;
 }
 
 nav ul {
   list-style-type: none;
-  margin: 20px auto;
   padding: 0;
 }
 nav ul li {
@@ -23,9 +18,12 @@ nav ul li {
 
 .nav-left {
   float: left;
+  padding-left: 50px;
 }
 
 
 .nav-right {
   float: right;
+  margin: 0;
+  padding-right: 50px;
 }
