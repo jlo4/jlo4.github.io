@@ -1,4 +1,8 @@
-#nav {
+nav {
+  border-radius: 0 !important;
+}
+
+/*#nav {
   background: lightgray;
   border-bottom: black;
   float: left;
@@ -26,4 +30,4 @@ nav ul li {
   float: right;
   margin: 0;
   padding-right: 50px;
-}
+}*/

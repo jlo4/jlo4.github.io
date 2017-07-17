@@ -47,13 +47,16 @@ nav ul li {
 .nav-right {
   float: right;
 }*/
+/*.main {
+  width: 100%;
+}*/
 
 .sidebar {
   background: lightgray;
   clear: left;
   float: left;
   height: 40%;
-  margin: 91px 0 0 5%;
+  margin: 91px 0 0 2%;
   width: 400px;
 }
 
@@ -94,7 +97,7 @@ nav ul li {
 	float: left;
 	height: 80%;
 	margin: 91px 0;
-	width: 68.6%;
+	width: 71%;
 }
 
 .flex-row {
@@ -114,6 +117,10 @@ nav ul li {
 .button {
 	height: 50%;
 	width: 50%;
+}
+
+.btn {
+  justify-content: center;
 }
 
 .project a {
