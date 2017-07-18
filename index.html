@@ -8,19 +8,19 @@
 	<link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
-		<div id="nav">
-			<nav class="navbar navbar-default">
-<div class="container-fluid">
-	<!-- Brand and toggle get grouped for better mobile display -->
-	<div class="navbar-header">
-		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-			<span class="sr-only">Toggle navigation</span>
-			<span class="icon-bar"></span>
-			<span class="icon-bar"></span>
-			<span class="icon-bar"></span>
-		</button>
-		<a class="navbar-brand" href="#">J L</a>
-	</div>
+		<div id="nav" class="navbar navbar-default navbar-fixed-top">
+			<nav>
+			<div class="container-fluid">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#">J L</a>
+				</div>
 
 	<!-- Collect the nav links, forms, and other content for toggling -->
 	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -61,7 +61,19 @@
 	</div><!-- /.navbar-collapse -->
 </div><!-- /.container-fluid -->
 </nav>
-<div class="main">
+</div>
+
+<div class="jumbotron">
+  <h1>Welcome to my portfolio</h1>
+  <p>This is a collection of projects from <a href="http://www.theodinproject.com" target="_blank">The Odin Project</a> and <a href="http://www.freecodecamp.org" target="_blank">Free Code Camp</a></p>
+
+  <p>Click a tab to show projects from either site or all projects</p>
+  <p class="lead">
+    <a class="btn btn-primary btn-lg" href="about.html" role="button">About John</a>
+  </p>
+</div>
+
+<div class="main container-fluid">
 		<div class="sidebar">
 			  <ul class="sidebar-tabs">
 					<div class=".btn-group.btn-group-justified">
@@ -106,118 +118,131 @@
 		  	</div>
 		</div>
       <div id="content">
-			  <div class="flex-row">
-					<div class="project odin text-center">
-			  	<a href="https://rawgit.com/jlo4/youtube-page/master/index.html" target="_blank">
-	  				<img src="assets/photos/youtube-page.png">
-					</a>
-				    <div class="btn btn-default">
-				    	<a href="https://rawgit.com/jlo4/youtube-page/master/index.html" target="_blank">YouTube Page</a>
-				    </div>
-					</div>
-
-					<div class="project odin text-center">
-						<a href="https://rawgit.com/jlo4/mint-signup/master/index.html" target="_blank">
-		  				<img src="assets/photos/mint-signup.png">
+					<div class="row">
+						<div class="col-md-3 project odin text-center">
+				  	<a href="https://rawgit.com/jlo4/youtube-page/master/index.html" target="_blank">
+		  				<img src="assets/photos/youtube-page.png">
 						</a>
-						<div class="btn btn-default">
-				    	<a href="https://rawgit.com/jlo4/mint-signup/master/index.html" target="_blank">Mint Sign Up Page</a>
-				    </div>
-					</div>
-					<div class="project odin text-center">
-						<a href="https://rawgit.com/jlo4/apple-homepage/master/index.html" target="_blank">
-		  				<img src="assets/photos/apple-homepage.png">
-						</a>
-						<div class="btn btn-default">
-				    	<a href="https://rawgit.com/jlo4/apple-homepage/master/index.html" target="_blank">Apple Home Page</a>
-				    </div>
-					</div>
-					<div class="project odin text-center">
-						<a href="https://rawgit.com/jlo4/colorpad/master/index.html" target="_blank">
-							<img src="assets/photos/colorpad.png">
-						</a>
-						<div class="btn btn-default">
-							<a href="https://rawgit.com/jlo4/colorpad/master/index.html" target="_blank">Color Pad</a>
+					    <div class="btn btn-default">
+					    	<a href="https://rawgit.com/jlo4/youtube-page/master/index.html" target="_blank">YouTube Page</a>
+					    </div>
+						</div>
+						<div class="col-md-3 project odin text-center">
+							<a href="https://rawgit.com/jlo4/mint-signup/master/index.html" target="_blank">
+			  				<img src="assets/photos/mint-signup.png">
+							</a>
+							<div class="btn btn-default">
+					    	<a href="https://rawgit.com/jlo4/mint-signup/master/index.html" target="_blank">Mint Sign Up Page</a>
+					    </div>
+						</div>
+						<div class="col-md-3 project odin text-center">
+							<a href="https://rawgit.com/jlo4/apple-homepage/master/index.html" target="_blank">
+			  				<img src="assets/photos/apple-homepage.png">
+							</a>
+							<div class="btn btn-default">
+					    	<a href="https://rawgit.com/jlo4/apple-homepage/master/index.html" target="_blank">Apple Home Page</a>
+					    </div>
 						</div>
 					</div>
-					<div class="project odin text-center">
-						<a href="https://rawgit.com/jlo4/calculator/master/index.html" target="_blank">
-							<img src="assets/photos/calculator.png">
-						</a>
-						<div class="btn btn-default">
-							<a href="https://rawgit.com/jlo4/calculator/master/index.html" target="_blank">On Screen Calculator</a>
+					<div class="row">
+						<div class="col-md-3 project odin text-center">
+								<a href="https://rawgit.com/jlo4/colorpad/master/index.html" target="_blank">
+									<img src="assets/photos/colorpad.png">
+								</a>
+								<div class="btn btn-default">
+									<a href="https://rawgit.com/jlo4/colorpad/master/index.html" target="_blank">Color Pad</a>
+								</div>
+						</div>
+						<div class="col-md-3 project odin text-center">
+							<a href="https://rawgit.com/jlo4/calculator/master/index.html" target="_blank">
+								<img src="assets/photos/calculator.png">
+							</a>
+							<div class="btn btn-default">
+								<a href="https://rawgit.com/jlo4/calculator/master/index.html" target="_blank">On Screen Calculator</a>
+							</div>
+						</div>
+						<div class="col-md-3 project odin text-center">
+							<a href="https://rawgit.com/jlo4/image-carousel/master/index.html" target="_blank">
+								<img src="assets/photos/calculator.png">
+							</a>
+							<div class="btn btn-default">
+								<a href="https://rawgit.com/jlo4/image-carousel/master/index.html" target="_blank">Image Carousel</a>
+							</div>
 						</div>
 					</div>
-					<div class="project odin text-center">
-						<a href="https://rawgit.com/jlo4/image-carousel/master/index.html" target="_blank">
-							<img src="assets/photos/calculator.png">
-						</a>
-						<div class="btn btn-default">
-							<a href="https://rawgit.com/jlo4/image-carousel/master/index.html" target="_blank">Image Carousel</a>
+					<div class="row">
+						<div class="col-md-3 project odin text-center">
+							<a href="https://rawgit.com/jlo4/tic-tac-toe/master/index.html" target="_blank">
+								<img src="assets/photos/tictactoe.png">
+							</a>
+							<div class="btn btn-default">
+								<a href="https://rawgit.com/jlo4/tic-tac-toe/master/index.html" target="_blank">Tic Tac Toe</a>
+							</div>
+						</div>
+						<div class="col-md-3 project fcc text-center">
+							<a href="https://rawgit.com/jlo4/tribute-page/master/index.html" target="_blank">
+			  				<img src="assets/photos/tribute.png">
+							</a>
+							<div class="btn btn-default">
+					    	<a href="https://rawgit.com/jlo4/tribute-page/master/index.html" target="_blank">Tribute Page</a>
+					    </div>
+						</div>
+						<div class="col-md-3 project fcc text-center">
+							<a href="https://rawgit.com/jlo4/survey-form/master/index.html" target="_blank">
+			  				<img src="assets/photos/survey_form.png">
+							</a>
+							<div class="btn btn-default">
+					    	<a href="https://rawgit.com/jlo4/survey-form/master/index.html" target="_blank">Survey Form</a>
+					    </div>
 						</div>
 					</div>
-					<div class="project odin text-center">
-						<a href="https://rawgit.com/jlo4/tic-tac-toe/master/index.html" target="_blank">
-							<img src="assets/photos/tictactoe.png">
-						</a>
-						<div class="btn btn-default">
-							<a href="https://rawgit.com/jlo4/tic-tac-toe/master/index.html" target="_blank">Tic Tac Toe</a>
+					<div class="row">
+					  <div class="col-md-3 project fcc text-center">
+							<a href="https://rawgit.com/jlo4/imagegallery/master/Photo%20Gallery/gallery.html" target="_blank">
+			  				<img src="assets/photos/tribute.png">
+							</a>
+							<div class="btn btn-default">
+					    	<a href="https://rawgit.com/jlo4/color-game/master/Color%20Game/colorGame.html" target="_blank">Product Landing Page</a>
+					    </div>
+						</div>
+						<div class="col-md-3 project fcc text-center">
+							<a href="https://rawgit.com/jlo4/imagegallery/master/Photo%20Gallery/gallery.html" target="_blank">
+			  				<img src="assets/photos/tribute.png">
+							</a>
+							<div class="btn btn-default">
+					    	<a href="https://rawgit.com/jlo4/color-game/master/Color%20Game/colorGame.html" target="_blank">Technical Documentation Page</a>
+					    </div>
+						</div>
+						<div class="col-md-3 project fcc text-center">
+							<a href="https://rawgit.com/jlo4/random-quote-generator/master/index.html" target="_blank">
+			  				<img src="assets/photos/quote_gen.png">
+							</a>
+							<div class="btn btn-default">
+					    	<a href="https://rawgit.com/jlo4/random-quote-generator/master/index.html" target="_blank">Random Quote Generator</a>
+					    </div>
 						</div>
 					</div>
-					<div class="project fcc text-center">
-						<a href="https://rawgit.com/jlo4/tribute-page/master/index.html" target="_blank">
-		  				<img src="assets/photos/tribute.png">
-						</a>
-						<div class="btn btn-default">
-				    	<a href="https://rawgit.com/jlo4/tribute-page/master/index.html" target="_blank">Tribute Page</a>
-				    </div>
-					</div>
-					<div class="project fcc text-center">
-						<a href="https://rawgit.com/jlo4/survey-form/master/index.html" target="_blank">
-		  				<img src="assets/photos/survey_form.png">
-						</a>
-						<div class="btn btn-default">
-				    	<a href="https://rawgit.com/jlo4/survey-form/master/index.html" target="_blank">Survey Form</a>
-				    </div>
-					</div>
-					<div class="project fcc text-center">
-						<a href="https://rawgit.com/jlo4/imagegallery/master/Photo%20Gallery/gallery.html" target="_blank">
-		  				<img src="assets/photos/tribute.png">
-						</a>
-						<div class="btn btn-default">
-				    	<a href="https://rawgit.com/jlo4/color-game/master/Color%20Game/colorGame.html" target="_blank">Product Landing Page</a>
-				    </div>
-					</div>
-					<div class="project fcc text-center">
-						<a href="https://rawgit.com/jlo4/imagegallery/master/Photo%20Gallery/gallery.html" target="_blank">
-		  				<img src="assets/photos/tribute.png">
-						</a>
-						<div class="btn btn-default">
-				    	<a href="https://rawgit.com/jlo4/color-game/master/Color%20Game/colorGame.html" target="_blank">Technical Documentation Page</a>
-				    </div>
-					</div>
-					<div class="project fcc text-center">
-						<a href="https://rawgit.com/jlo4/random-quote-generator/master/index.html" target="_blank">
-		  				<img src="assets/photos/quote_gen.png">
-						</a>
-						<div class="btn btn-default">
-				    	<a href="https://rawgit.com/jlo4/random-quote-generator/master/index.html" target="_blank">Random Quote Generator</a>
-				    </div>
-					</div>
-					<div class="project fcc text-center">
-						<a href="https://rawgit.com/jlo4/drum-machine/master/index.html" target="_blank">
-		  				<img src="assets/photos/tribute.png">
-						</a>
-						<div class="btn btn-default">
-				    	<a href="https://rawgit.com/jlo4/drum-machine/master/index.html" target="_blank">Drum Machine</a>
-				    </div>
+					<div class="row">
+						<div class="col-md-3 project fcc text-center">
+							<a href="https://rawgit.com/jlo4/drum-machine/master/index.html" target="_blank">
+			  				<img src="assets/photos/tribute.png">
+							</a>
+							<div class="btn btn-default">
+					    	<a href="https://rawgit.com/jlo4/drum-machine/master/index.html" target="_blank">Drum Machine</a>
+					    </div>
+						</div>
+						<div class="col-md-3 project fcc text-center">
+							<a href="https://rawgit.com/jlo4/weather-page/master/index.html" target="_blank">
+			  				<img src="assets/photos/tribute.png">
+							</a>
+							<div class="btn btn-default">
+					    	<a href="https://rawgit.com/jlo4/weather-page/master/index.html" target="_blank">Weather Page</a>
+					    </div>
+						</div>
 					</div>
 				</div>
-			</div>
-<script
-src="https://code.jquery.com/jquery-3.2.1.min.js"
-integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-crossorigin="anonymous"></script>
+		</div>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 	<script src="assets/js/effects.js"></script>
 	</div>
 </body>

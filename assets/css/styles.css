@@ -16,48 +16,20 @@ body {
 	width: 100%;
 }
 
-/*#page {
-  height: 100%;
-  width: 100%;
-}*/
-/*
-header {
-  background: white;
-  border-bottom: black;
-  display: block;
-  height: 3.08rem;
-  margin: 0;
-  padding: 0;
-  width: 100%;
+.jumbotron {
+  height: 32rem;
+  margin: 6% auto 0 auto;
+  padding: 2% 0;
+  text-align: center;
+  width: 60%;
 }
-
-nav {
-   margin: 0;
-}
-
-nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-nav ul li {
-  display: inline;
-}
-
-.nav-right {
-  float: right;
-}*/
-/*.main {
-  width: 100%;
-}*/
 
 .sidebar {
   background: lightgray;
   clear: left;
   float: left;
   height: 40%;
-  margin: 91px 0 0 2%;
-  width: 400px;
+  margin: 2% 0 0 2%;
 }
 
 .sidebar-tabs {
@@ -94,29 +66,28 @@ nav ul li {
 }
 
 #content {
-	float: left;
+  float: left;
 	height: 80%;
-	margin: 91px 0;
-	width: 71%;
+	margin: 2% 0 0 2%;
+  width: 69%;
 }
 
-.flex-row {
+/*.flex-row {
 	display: flex;
 	flex-flow: row wrap;
 	height: 100%;
 	margin: 0;
 	padding: 0;
-	width: 100%;
-}
+}*/
 
 .project {
 	height: 30%;
-	width: 30%;
+	width: 32%;
 }
 
-.button {
-	height: 50%;
-	width: 50%;
+.btn {
+  background: lightgray;
+  margin: 2% 0;
 }
 
 .btn {
