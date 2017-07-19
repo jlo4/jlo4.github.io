@@ -33,7 +33,9 @@ and (max-device-width : 667px) {
   padding: 2% 0;
   text-align: center;
   width: 100%;
-}}
+}
+
+}
 
 .sidebar {
   background: lightgray;
