@@ -26,7 +26,8 @@ body {
 
 @media only screen
 and (min-device-width : 375px)
-and (max-device-width : 667px) {.jumbotron {
+and (max-device-width : 667px) {
+  .jumbotron {
   height: 5%
   margin: 0;
   padding: 2% 0;
@@ -95,6 +96,14 @@ and (max-device-width : 667px) {.jumbotron {
 	width: 32%;
 }
 
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px) {
+  .project{
+  height: 30%;
+  width: 100%;
+}
+}
 .btn {
   background: lightgray;
   margin: 2% 0;
