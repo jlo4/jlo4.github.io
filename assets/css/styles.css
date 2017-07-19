@@ -24,6 +24,10 @@ body {
   width: 60%;
 }
 
+.btn-primary {
+  color: inherit;
+}
+
 @media only screen
 and (min-device-width : 375px)
 and (max-device-width : 667px) {
@@ -38,7 +42,7 @@ and (max-device-width : 667px) {
 }
 
 .sidebar {
-  background: lightgray;
+  background: #eee;
   clear: left;
   float: left;
   height: 40%;
@@ -113,7 +117,7 @@ and (max-device-width : 667px) {
 }
 }
 .btn {
-  background: lightgray;
+  background: #eee;
   margin: 2% 0;
 }
 
