@@ -113,6 +113,7 @@ and (max-device-width : 575px) {
     float: left;
   	height: 80%;
   	margin: 0;
+    padding: 0;
     width: 100%;
   }
   .project{
@@ -120,18 +121,30 @@ and (max-device-width : 575px) {
   width: 100%;
 }
 }
+
 .btn {
   background: #eee;
   margin: 2% 0;
-}
-
-.btn {
   justify-content: center;
 }
 
 .project a {
 	height: 20%;
 	width: 20%;
+}
+
+@media only screen
+and (max-device-width : 575px) {
+  .btn {
+    background: #eee;
+    margin: 0;
+    justify-content: center;
+  }
+
+  .project a {
+  	height: 20%;
+  	width: 100%;
+  }
 }
 
 img {
