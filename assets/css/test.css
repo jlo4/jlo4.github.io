@@ -7,6 +7,11 @@ and (device-aspect-ratio: 40/71) {
     padding: 0;
     width: 100%;
   }
+
+  .hide {
+    display: block;
+  }
+  
   .project{
   height: 30%;
   width: 100%;
@@ -22,6 +27,7 @@ and (device-aspect-ratio: 40/71) {
   .sidebar {
   display: none;
   }
+
   .jumbotron {
   height: 5%;
   margin: 11% 0 0 0;
@@ -29,6 +35,7 @@ and (device-aspect-ratio: 40/71) {
   text-align: center;
   width: 100%;
   }
+
   #nav {
   height: 7%;
   }
