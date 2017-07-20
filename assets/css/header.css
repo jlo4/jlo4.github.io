@@ -2,16 +2,7 @@ nav {
   border-radius: 0 !important;
 }
 
-@media only screen
-and (max-device-width : 575px) {
-  #nav {
-  height: 7%;
-  }
-  .nav, .navbar-brand {
-    font-size: 3em;
-    margin-top: 3%;
-  }
-}
+
 
 /*#nav {
   background: lightgray;
