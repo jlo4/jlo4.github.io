@@ -33,7 +33,7 @@ $(document).ready(function(){
   $(".fcc").addClass("hide");
   $("#show3").removeClass("show");
   $("#show3").addClass("hide");
-  
+
   $("#tab1").on("click", function(e){
     $(".odin").removeClass("hide");
     $(".odin").addClass("show");

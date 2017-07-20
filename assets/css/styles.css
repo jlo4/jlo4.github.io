@@ -83,6 +83,13 @@ and (max-device-width : 575px) {
   display: none;
 }
 
+@media only screen
+and (max-device-width : 575px) {
+  .hide {
+    display: block;
+  }
+}
+
 .show {
   display: block;
 }
