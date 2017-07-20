@@ -27,46 +27,66 @@
 
 $(document).ready(function(){
   // var i = 0;
-  $(".odin").removeClass("hide");
-  $(".odin").addClass("show");
-  $(".fcc").removeClass("show");
-  $(".fcc").addClass("hide");
-  $("#show3").removeClass("show");
-  $("#show3").addClass("hide");
 
-  $("#tab1").on("click", function(e){
-    $(".odin").removeClass("hide");
-    $(".odin").addClass("show");
-    $(".fcc").removeClass("show");
-    $(".fcc").addClass("hide");
-    $("#show3").removeClass("show");
-    $("#show3").addClass("hide");
-    e.preventDefault();
-  });
+  function checkPosition() {
+    if (window.matchMedia('(max-width: 525px)').matches) {
+      $("#show3").removeClass("hide");
+      $("#show3").addClass("show");
+      $("#show1").removeClass("show");
+      $("#show1").addClass("hide");
+      $(".odin").removeClass("hide");
+      $(".odin").addClass("show");
+      $("#show2").removeClass("show");
+      $("#show2").addClass("hide");
+      $(".fcc").removeClass("hide");
+      $(".fcc").addClass("show");
+    } else {
+        //...
+        $(".odin").removeClass("hide");
+        $(".odin").addClass("show");
+        $(".fcc").removeClass("show");
+        $(".fcc").addClass("hide");
+        $("#show3").removeClass("show");
+        $("#show3").addClass("hide");
 
-  $("#tab2").on("click", function(e){
-    $(".fcc").removeClass("hide");
-    $(".fcc").addClass("show");
-    $(".odin").removeClass("show");
-    $(".odin").addClass("hide");
-    $("#show3").removeClass("show");
-    $("#show3").addClass("hide");
-  e.preventDefault();
-  });
+        $("#tab1").on("click", function(e){
+          $(".odin").removeClass("hide");
+          $(".odin").addClass("show");
+          $(".fcc").removeClass("show");
+          $(".fcc").addClass("hide");
+          $("#show3").removeClass("show");
+          $("#show3").addClass("hide");
+          e.preventDefault();
+        });
 
-  $("#tab3").on("click", function(e){
-    $("#show3").removeClass("hide");
-    $("#show3").addClass("show");
-    $("#show1").removeClass("show");
-    $("#show1").addClass("hide");
-    $(".odin").removeClass("hide");
-    $(".odin").addClass("show");
-    $("#show2").removeClass("show");
-    $("#show2").addClass("hide");
-    $(".fcc").removeClass("hide");
-    $(".fcc").addClass("show");
-  e.preventDefault();
-});
+        $("#tab2").on("click", function(e){
+          $(".fcc").removeClass("hide");
+          $(".fcc").addClass("show");
+          $(".odin").removeClass("show");
+          $(".odin").addClass("hide");
+          $("#show3").removeClass("show");
+          $("#show3").addClass("hide");
+        e.preventDefault();
+        });
+
+        $("#tab3").on("click", function(e){
+          $("#show3").removeClass("hide");
+          $("#show3").addClass("show");
+          $("#show1").removeClass("show");
+          $("#show1").addClass("hide");
+          $(".odin").removeClass("hide");
+          $(".odin").addClass("show");
+          $("#show2").removeClass("show");
+          $("#show2").addClass("hide");
+          $(".fcc").removeClass("hide");
+          $(".fcc").addClass("show");
+        e.preventDefault();
+      });
+    }
+}
+
+checkPosition();
+
   //
   // $(".carousel").append(images[i]);
   //
