@@ -29,7 +29,7 @@ $(document).ready(function(){
   // var i = 0;
 
   function checkPosition() {
-    if (window.matchMedia('(max-width: 525px)').matches) {
+    if (window.matchMedia('(device-aspect-ratio: 40/71)').matches) {
       $("#show3").removeClass("hide");
       $("#show3").addClass("show");
       $("#show1").removeClass("show");
