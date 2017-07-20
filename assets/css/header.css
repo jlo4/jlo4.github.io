@@ -2,6 +2,13 @@ nav {
   border-radius: 0 !important;
 }
 
+@media only screen
+and (max-device-width : 575px) {
+  #nav {
+  height: 10%;
+}
+
+
 /*#nav {
   background: lightgray;
   border-bottom: black;
