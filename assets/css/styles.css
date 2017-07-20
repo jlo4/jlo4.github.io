@@ -29,8 +29,7 @@ body {
 }
 
 @media only screen
-and (min-device-width : 375px)
-and (max-device-width : 667px) {
+and (max-device-width : 575px) {
   .jumbotron {
   height: 5%
   margin: 0;
@@ -47,6 +46,12 @@ and (max-device-width : 667px) {
   float: left;
   height: 40%;
   margin: 2% 0 0 2%;
+}
+
+@media only screen
+and (max-device-width : 575px) {
+  .sidebar {
+  display: none;
 }
 
 .sidebar-tabs {
@@ -103,8 +108,7 @@ and (max-device-width : 667px) {
 }
 
 @media only screen
-and (min-device-width : 375px)
-and (max-device-width : 667px) {
+and (max-device-width : 575px) {
   #content {
     float: left;
   	height: 80%;

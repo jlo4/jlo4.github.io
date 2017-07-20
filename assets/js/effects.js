@@ -27,7 +27,13 @@
 
 $(document).ready(function(){
   // var i = 0;
-
+  $(".odin").removeClass("hide");
+  $(".odin").addClass("show");
+  $(".fcc").removeClass("show");
+  $(".fcc").addClass("hide");
+  $("#show3").removeClass("show");
+  $("#show3").addClass("hide");
+  
   $("#tab1").on("click", function(e){
     $(".odin").removeClass("hide");
     $(".odin").addClass("show");
