@@ -31,8 +31,8 @@ body {
 @media only screen
 and (max-device-width : 575px) {
   .jumbotron {
-  height: 5%
-  margin: 0;
+  height: 5%;
+  margin: 11% 0 0 0;
   padding: 2% 0;
   text-align: center;
   width: 100%;

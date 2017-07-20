@@ -5,6 +5,7 @@ nav {
 @media only screen
 and (max-device-width : 575px) {
   #nav {
+  font-size: 2rem;
   height: 10%;
 }
 
