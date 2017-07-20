@@ -145,6 +145,7 @@ and (max-device-width : 575px) {
 and (max-device-width : 575px) {
   .project>.btn {
     background: #eee;
+    font-size: 2rem;
     margin: 0;
     justify-content: center;
     height: 20%;
