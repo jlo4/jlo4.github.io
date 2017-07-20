@@ -139,10 +139,7 @@ and (max-device-width : 575px) {
     background: #eee;
     margin: 0;
     justify-content: center;
-  }
-
-  .project a {
-  	height: 20%;
+    height: 20%;
   	width: 100%;
   }
 }
