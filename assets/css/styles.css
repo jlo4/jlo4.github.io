@@ -135,7 +135,7 @@ and (max-device-width : 575px) {
 
 @media only screen
 and (max-device-width : 575px) {
-  .btn {
+  .project>.btn {
     background: #eee;
     margin: 0;
     justify-content: center;
