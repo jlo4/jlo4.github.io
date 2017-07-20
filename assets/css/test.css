@@ -1,5 +1,5 @@
 @media only screen
-and (max-device-width : 575px) {
+and (device-aspect-ratio: 40/71) {
   #content {
     float: left;
   	height: 80%;
@@ -10,41 +10,25 @@ and (max-device-width : 575px) {
   .project{
   height: 30%;
   width: 100%;
-}
-}
+  }
 
-@media only screen
-and (max-device-width : 575px) {
   .project>.btn {
     background: #eee;
     margin: 0;
     justify-content: center;
     height: 20%;
-  	width: 100%;
+    width: 100%;
   }
-}
-
-@media only screen
-and (max-device-width : 575px) {
   .sidebar {
   display: none;
-}
-
-
-@media only screen
-and (max-device-width : 575px) {
+  }
   .jumbotron {
   height: 5%;
   margin: 11% 0 0 0;
   padding: 2% 0;
   text-align: center;
   width: 100%;
-}
-
-}
-
-@media only screen
-and (max-device-width : 575px) {
+  }
   #nav {
   height: 7%;
   }
