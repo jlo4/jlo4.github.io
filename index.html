@@ -3,162 +3,143 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Portfolio Page</title>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-	integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	<link rel="stylesheet" href="assets/css/styles.css">
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+	<link href="assets/css/styles.css" rel="stylesheet">
 </head>
 <body>
-		<div id="nav" class="navbar navbar-default navbar-fixed-top">
-			<nav>
-				<div class="container-fluid">
-					<!-- Brand and toggle get grouped for better mobile display -->
-					<div class="navbar-header">
-						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-							<span class="sr-only">Toggle navigation</span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-						</button>
-						<a class="navbar-brand" href="#">My Portfolio</a>
-					</div>
-
-				<!-- Collect the nav links, forms, and other content for toggling -->
+	<div class="navbar navbar-default navbar-fixed-top" id="nav">
+		<nav>
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button aria-expanded="false" class="navbar-toggle collapsed" data-target="#bs-example-navbar-collapse-1" data-toggle="collapse" type="button"><span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button> <a class="navbar-brand" href="#">My Portfolio</a>
+				</div>
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav">
-						<li><a class="navbar-brand" href="https://github.com/jlo4" target="_blank">My Github<span class="sr-only">(current)</span></a></li>
+						<li>
+							<a class="navbar-brand" href="https://github.com/jlo4" target="_blank">My Github<span class="sr-only">(current)</span></a>
+						</li>
 					</ul>
 				</div><!-- /.navbar-collapse -->
-				</div><!-- /.container-fluid -->
-			</nav>
-		</div>
-
-<div class="jumbotron">
-  <h1>Welcome to my portfolio</h1>
-  <p>This is a collection of projects from <a href="http://www.theodinproject.com" target="_blank">The Odin Project</a> and <a href="http://www.freecodecamp.org" target="_blank">Free Code Camp</a></p>
-
-  <p>Click a tab to show projects from either site or all projects</p>
-  <p class="lead">
-    <a class="btn btn-primary btn-lg" href="about.html" role="button">About John</a>
-  </p>
-</div>
-
-<div class="main container-fluid">
+			</div><!-- /.container-fluid -->
+		</nav>
+	</div>
+	<div class="jumbotron">
+		<h1>Welcome to my portfolio</h1>
+		<p>This is a collection of projects from <a href="http://www.theodinproject.com" target="_blank">The Odin Project</a> and <a href="http://www.freecodecamp.org" target="_blank">Free Code Camp</a></p>
+		<p>Click a tab to show projects from either site or all projects</p>
+		<p class="lead"><a class="btn btn-primary btn-lg" href="about.html" role="button">About John</a></p>
+	</div>
+	<div class="main container-fluid">
 		<div class="sidebar">
-			  <ul class="sidebar-tabs">
-					<div class=".btn-group.btn-group-justified">
-				    <li><a id="tab1" class="btn btn-lg" href="#">The Odin Project</a></li>
-				    <li><a id="tab2" class="btn btn-lg" href="#">FreeCodeCamp</a></li>
-				    <li><a id="tab3" class="btn btn-lg" href="#">All</a></li>
-					</div>
-			  </ul>
-			  <div class="panels">
-						<div id="show1" class="odin show">
-							<h2 id="clearleft">Odin Projects</h2>
-							<h3>Javascript/jQuery Projects</h3>
-							<ul>
-								<li>Color Pad</li>
-								<li>On Screen Calculator</li>
-								<li>Image Carousel</li>
-								<li>Tic Tac Toe</li>
-							</ul>
-						</div>
-						<div id="show2" class="fcc hide">
-							<h2>FCC Projects</h2>
-							<h3>Javascript/jQuery Projects</h3>
-							<ul>
-								<li>Random Quote Generator</li>
-								<li>Drum Machine</li>
-								<li>Local Weather Page</li>
-							</ul>
-						</div>
-						<div id="show3" class="project hide">
-						</div>
-		  	</div>
+			<div class="sidebar-tabs" style="margin-left: 2em">
+				<div>
+					<ul>
+						<li>
+							<a class="btn btn-lg" href="#" id="tab1">The Odin Project</a>
+						</li>
+						<li>
+							<a class="btn btn-lg" href="#" id="tab2">FreeCodeCamp</a>
+						</li>
+						<li>
+							<a class="btn btn-lg" href="#" id="tab3">All</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="panels">
+				<div class="odin show" id="show1">
+					<h2 id="clearleft">Odin Projects</h2>
+					<h3>Javascript/jQuery Projects</h3>
+					<ul>
+						<li>Color Pad</li>
+						<li>On Screen Calculator</li>
+						<li>Image Carousel</li>
+						<li>Tic Tac Toe</li>
+						<li>Snake Game</li>
+					</ul>
+				</div>
+				<div class="fcc hide" id="show2">
+					<h2>FCC Projects</h2>
+					<h3>Javascript/jQuery Projects</h3>
+					<ul>
+						<li>Random Quote Generator</li>
+						<li>Drum Machine</li>
+						<li>Local Weather Page</li>
+					</ul>
+				</div>
+				<div class="project hide" id="show3"></div>
+			</div>
 		</div>
-      <div id="content">
-					<div class="row">
-						<div class="col-md-3 project odin text-center">
-								<a href="https://rawgit.com/jlo4/colorpad/master/index.html" target="_blank">
-									<img src="assets/photos/colorpad.png">
-								</a>
-								<div class="btn btn-default">
-									<a href="https://rawgit.com/jlo4/colorpad/master/index.html" target="_blank">Color Pad</a>
-								</div>
-						</div>
-						<div class="col-md-3 project odin text-center">
-							<a href="https://rawgit.com/jlo4/calculator/master/index.html" target="_blank">
-								<img src="assets/photos/calculator.png">
-							</a>
-							<div class="btn btn-default">
-								<a href="https://rawgit.com/jlo4/calculator/master/index.html" target="_blank">On Screen Calculator</a>
-							</div>
-						</div>
-						<div class="col-md-3 project odin text-center">
-							<a href="https://rawgit.com/jlo4/image-carousel/master/index.html" target="_blank">
-								<img src="assets/photos/image-carousel.png">
-							</a>
-							<div class="btn btn-default">
-								<a href="https://rawgit.com/jlo4/image-carousel/master/index.html" target="_blank">Image Carousel</a>
-							</div>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-3 project odin text-center">
-							<a href="https://rawgit.com/jlo4/tic-tac-toe/master/index.html" target="_blank">
-								<img src="assets/photos/tictactoe.png">
-							</a>
-							<div class="btn btn-default">
-								<a href="https://rawgit.com/jlo4/tic-tac-toe/master/index.html" target="_blank">Tic Tac Toe</a>
-							</div>
-						</div>
-						<div class="col-md-3 project odin text-center">
-							<a href="https://rawgit.com/jlo4/snake-game/master/index.html" target="_blank">
-								<img src="assets/photos/snake-game.png">
-							</a>
-							<div class="btn btn-default">
-								<a href="https://rawgit.com/jlo4/snake-game/master/index.html" target="_blank">Snake Game</a>
-							</div>
-						</div>
-						<div class="col-md-3 project fcc text-center">
-							<a href="https://rawgit.com/jlo4/random-quote-generator/master/index.html" target="_blank">
-			  				<img src="assets/photos/quote_gen.png">
-							</a>
-							<div class="btn btn-default">
-					    	<a href="https://rawgit.com/jlo4/random-quote-generator/master/index.html" target="_blank">Random Quote Generator</a>
-					    </div>
-						</div>
-						<div class="col-md-3 project fcc text-center">
-							<a href="https://rawgit.com/jlo4/drum-machine/master/index.html" target="_blank">
-			  				<img src="assets/photos/drum-machine.png">
-							</a>
-							<div class="btn btn-default">
-					    	<a href="https://rawgit.com/jlo4/drum-machine/master/index.html" target="_blank">Drum Machine</a>
-					    </div>
-						</div>
-						<div class="col-md-3 project fcc text-center">
-							<a href="https://rawgit.com/jlo4/weather-page/master/index.html" target="_blank">
-			  				<img src="assets/photos/weather-page.png">
-							</a>
-							<div class="btn btn-default">
-					    	<a href="https://rawgit.com/jlo4/weather-page/master/index.html" target="_blank">Weather Page</a>
-					    </div>
-						</div>
+		<div id="content">
+			<div class="row">
+				<div class="col-md-3 project odin text-center">
+					<a href="https://rawgit.com/jlo4/colorpad/master/index.html" target="_blank"><img src="assets/photos/colorpad.png"></a>
+					<div class="btn btn-default">
+						<a href="https://rawgit.com/jlo4/colorpad/master/index.html" target="_blank">Color Pad</a>
 					</div>
 				</div>
+				<div class="col-md-3 project odin text-center">
+					<a href="https://rawgit.com/jlo4/calculator/master/index.html" target="_blank"><img src="assets/photos/calculator.png"></a>
+					<div class="btn btn-default">
+						<a href="https://rawgit.com/jlo4/calculator/master/index.html" target="_blank">On Screen Calculator</a>
+					</div>
+				</div>
+				<div class="col-md-3 project odin text-center">
+					<a href="https://rawgit.com/jlo4/image-carousel/master/index.html" target="_blank"><img src="assets/photos/image-carousel.png"></a>
+					<div class="btn btn-default">
+						<a href="https://rawgit.com/jlo4/image-carousel/master/index.html" target="_blank">Image Carousel</a>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-3 project odin text-center">
+					<a href="https://rawgit.com/jlo4/tic-tac-toe/master/index.html" target="_blank"><img src="assets/photos/tictactoe.png"></a>
+					<div class="btn btn-default">
+						<a href="https://rawgit.com/jlo4/tic-tac-toe/master/index.html" target="_blank">Tic Tac Toe</a>
+					</div>
+				</div>
+				<div class="col-md-3 project odin text-center">
+					<a href="https://rawgit.com/jlo4/snake-game/master/index.html" target="_blank"><img src="assets/photos/snake-game.png"></a>
+					<div class="btn btn-default">
+						<a href="https://rawgit.com/jlo4/snake-game/master/index.html" target="_blank">Snake Game</a>
+					</div>
+				</div>
+				<div class="col-md-3 project fcc text-center">
+					<a href="https://rawgit.com/jlo4/random-quote-generator/master/index.html" target="_blank"><img src="assets/photos/quote_gen.png"></a>
+					<div class="btn btn-default">
+						<a href="https://rawgit.com/jlo4/random-quote-generator/master/index.html" target="_blank">Random Quote Generator</a>
+					</div>
+				</div>
+				<div class="col-md-3 project fcc text-center">
+					<a href="https://rawgit.com/jlo4/drum-machine/master/index.html" target="_blank"><img src="assets/photos/drum-machine.png"></a>
+					<div class="btn btn-default">
+						<a href="https://rawgit.com/jlo4/drum-machine/master/index.html" target="_blank">Drum Machine</a>
+					</div>
+				</div>
+				<div class="col-md-3 project fcc text-center">
+					<a href="https://rawgit.com/jlo4/weather-page/master/index.html" target="_blank"><img src="assets/photos/weather-page.png"></a>
+					<div class="btn btn-default">
+						<a href="https://rawgit.com/jlo4/weather-page/master/index.html" target="_blank">Weather Page</a>
+					</div>
+				</div>
+			</div>
 		</div>
-<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-	<script src="assets/js/effects.js"></script>
-	<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-103156315-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	</div>
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js">
+	</script>
+	<script src="assets/js/effects.js">
+	</script>
+	<script>
+	 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	 m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	 })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	 ga('create', 'UA-103156315-1', 'auto');
+	 ga('send', 'pageview');
+
+	</script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+	</script>
 </body>
 </html>
