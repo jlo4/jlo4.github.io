@@ -30,6 +30,9 @@ $(document).ready(function(){
 
   function checkPosition() {
     if (window.matchMedia('(device-aspect-ratio: 40/71)').matches) {
+      $("#tab1").addClass("btn-primary");
+      $("#tab2").addClass("btn-secondary");
+      $("#tab3").addClass("btn-secondary");
       $("#show3").removeClass("hide");
       $("#show3").addClass("show");
       $("#show1").removeClass("show");
@@ -42,6 +45,9 @@ $(document).ready(function(){
       $(".fcc").addClass("show");
     } else {
         //...
+        $("#tab1").addClass("btn-primary");
+        $("#tab2").addClass("btn-secondary");
+        $("#tab3").addClass("btn-secondary");
         $(".odin").removeClass("hide");
         $(".odin").addClass("show");
         $(".fcc").removeClass("show");
@@ -50,6 +56,12 @@ $(document).ready(function(){
         $("#show3").addClass("hide");
 
         $("#tab1").on("click", function(e){
+          $("#tab1").removeClass("btn-secondary");
+          $("#tab1").addClass("btn-primary");
+          $("#tab2").removeClass("btn-primary");
+          $("#tab2").addClass("btn-secondary");
+          $("#tab3").removeClass("btn-primary");
+          $("#tab3").addClass("btn-secondary");
           $(".odin").removeClass("hide");
           $(".odin").addClass("show");
           $(".fcc").removeClass("show");
@@ -60,6 +72,12 @@ $(document).ready(function(){
         });
 
         $("#tab2").on("click", function(e){
+          $("#tab2").removeClass("btn-secondary");
+          $("#tab2").addClass("btn-primary");
+          $("#tab1").removeClass("btn-primary");
+          $("#tab1").addClass("btn-secondary");
+          $("#tab3").removeClass("btn-primary");
+          $("#tab3").addClass("btn-secondary");
           $(".fcc").removeClass("hide");
           $(".fcc").addClass("show");
           $(".odin").removeClass("show");
@@ -70,6 +88,12 @@ $(document).ready(function(){
         });
 
         $("#tab3").on("click", function(e){
+          $("#tab3").removeClass("btn-secondary");
+          $("#tab3").addClass("btn-primary");
+          $("#tab1").removeClass("btn-primary");
+          $("#tab1").addClass("btn-secondary");
+          $("#tab2").removeClass("btn-primary");
+          $("#tab2").addClass("btn-secondary");
           $("#show3").removeClass("hide");
           $("#show3").addClass("show");
           $("#show1").removeClass("show");
