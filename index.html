@@ -4,32 +4,21 @@
 	<meta charset="UTF-8">
 	<title>Portfolio Page</title>
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
 	<link href="assets/css/styles.css" rel="stylesheet">
 </head>
 <body>
-	<div class="navbar navbar-default navbar-fixed-top" id="nav">
-		<nav>
-			<div class="container-fluid">
-				<div class="navbar-header">
-					<a class="navbar-brand" href="#">My Portfolio</a>
-					<button aria-expanded="false" class="navbar-toggle collapsed" data-target="#bs-example-navbar-collapse-1" data-toggle="collapse" type="button"><span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button>
-				</div>
-				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-					<ul class="nav navbar-nav">
-						<li>
-							<a class="navbar-brand" href="https://github.com/jlo4" target="_blank">My Github<span class="sr-only">(current)</span></a>
-						</li>
-					</ul>
-				</div><!-- /.navbar-collapse -->
-			</div><!-- /.container-fluid -->
-		</nav>
-	</div>
-	<div class="jumbotron">
-		<h1>Welcome to my portfolio</h1>
-		<p>This is a collection of projects from <a href="http://www.theodinproject.com" target="_blank">The Odin Project</a> and <a href="http://www.freecodecamp.org" target="_blank">Free Code Camp</a></p>
-		<p>Click a tab to show projects from either site or all projects</p>
-		<p class="lead"><a class="btn btn-primary btn-lg" href="about.html" role="button">About John</a></p>
-	</div>
+	<nav>
+		 <div class="hamburger clearfix">
+			 <p class="navicon">&#9776;</p>
+		 </div>
+		 <ul class="dropdown clearfix">
+			 <li><a href="#">Start</a></li>
+  		 <li><a href="#">Portfolio</a></li>
+  		 <li><a href="#">Contact</a></li>
+ 		 </ul>
+	</nav>
+
 	<div class="main container-fluid">
 		<div class="sidebar">
 			<div class="sidebar-tabs" style="margin-left: 2em">
