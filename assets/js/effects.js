@@ -1,32 +1,12 @@
-
-//
-// window.onload = function(){
-//     function showOdin() {
-//       var tabs = document.getElementById('odin');
-//       for(var i = 0; i < odin.length; i++){
-//         tabs[i].style.display = 'none';
-//       }
-//     }
-//
-// }
-
-
-// var images = [
-//               '<img class="show" src="photos/colorgame.png" alt="">',
-//               '<img class="show" src="photos/colorpad.png" alt="">',
-//               '<img class="show" src="photos/quote_gen.png" alt="">',
-//               '<img class="show" src="photos/survey_form.png" alt="">',
-//               '<img class="show" src="photos/tribute.png" alt="">'
-//             ]
-//
-// var projects = [
-//
-//
-//             ]
-
-
 $(document).ready(function(){
-  // var i = 0;
+
+  // $(".hamburger").on("click", function() {
+  //   $(this).toggleClass("change");
+  // })
+
+  $('.navicon').on('click', function(){
+    $('.dropdown').slideToggle(500);
+ });
 
   function checkPosition() {
     if (window.matchMedia('(device-aspect-ratio: 40/71)').matches) {
