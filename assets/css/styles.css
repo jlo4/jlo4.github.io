@@ -186,3 +186,44 @@ img {
 		font-size: 2rem;
 	}
 }
+
+@media screen and (device-aspect-ratio: 40/71) {
+	#welcome {
+		margin: 30% 0 0 0;
+	}
+
+	.projects {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+	}
+
+	.project {
+		height: 30%;
+		margin: 0 0 0 2.5%;
+		width: 100%;
+	}
+
+	img {
+		height: 100%;
+		width: 100%;
+	}
+
+
+	.btn {
+		font-size: 20px;
+		height: 30px;
+		width: 100%;
+		background: #eee;
+	}
+
+	.btn>a {
+		display: inline-block;
+		margin: .8% 0 12% 0;
+		text-decoration: none;
+	}
+
+	.fa {
+		font-size: 2rem;
+	}
+}
