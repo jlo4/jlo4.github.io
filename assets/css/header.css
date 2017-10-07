@@ -59,6 +59,54 @@ nav > ul > li > a {
 	}
 }
 
+/* Mobile Portrait */
+
+@media (min-width: 320px) and (max-width: 480px) {
+	.left {
+		display: none;
+	 }
+
+	.hamburger{
+		display: flex;
+	  width: 100%;
+	  background: black;
+	  font-family: 'Inconsolata', sans-serif;
+		justify-content: center;
+	 }
+
+	.navicon{
+	  font-size: 25px;
+	  margin: 5px 15px;
+	  color: seashell;
+	 }
+
+	.dropdown{
+	  padding-left: 0;
+	  margin: 0;
+	  list-style: none;
+	  display: none;
+		width: 100%;
+	 }
+
+	.dropdown li{
+	  font-size: 24px;
+	  padding: 15px;
+	  width: 100%;
+	  background: black;
+	  border-bottom: 1px solid black;
+	}
+
+	.dropdown li:last-child{
+	  border-bottom: none;
+	 }
+
+	.dropdown a:hover{
+	  background: black;
+	 }
+}
+
+/* Mobile Landscape */
+
 @media (min-width: 481px) and (max-width: 767px) {
 
 	.left {
