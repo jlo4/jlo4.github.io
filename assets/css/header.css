@@ -28,7 +28,7 @@ nav > ul > li {
 .left {
 	display: flex;
 	flex-direction: row;
-	width: 45%;
+	width: 25%;
 }
 
 .left > li {
@@ -36,7 +36,7 @@ nav > ul > li {
 }
 
 .left > li:last-child {
-	margin-left: 5%;
+	margin-left: 8%;
 }
 
 .right > li {
