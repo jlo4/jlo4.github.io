@@ -61,7 +61,7 @@ nav > ul > li > a {
 
 /* Mobile Portrait */
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media screen and (device-aspect-ratio: 40/71) and (max-device-width: 640px) {
 	.left {
 		display: none;
 	 }
@@ -107,7 +107,7 @@ nav > ul > li > a {
 
 /* Mobile Landscape */
 
-@media (min-width: 481px) and (max-width: 767px) {
+@media screen and (device-aspect-ratio: 40/71) and (max-device-width: 640px) {
 
 	.left {
 		display: none;
