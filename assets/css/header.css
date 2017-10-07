@@ -59,7 +59,7 @@ nav > ul > li > a {
 	}
 }
 
-@media screen and (max-width: 640px) {
+@media (min-width: 481px) and (max-width: 767px) {
 
 	.left {
 		display: none;
