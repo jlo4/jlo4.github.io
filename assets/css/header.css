@@ -25,8 +25,17 @@ nav > ul > li {
 	font-size: 24px;
 }
 
+.left {
+	display: flex;
+	width: 45%;
+}
+
 .left > li {
-	padding: 3% 0 0 0;
+	padding: 2% 0 0 0;
+}
+
+.left > li:last-child {
+	margin-left: 5%;
 }
 
 .right > li {
@@ -59,6 +68,50 @@ nav > ul > li > a {
 	}
 }
 
+@media screen and (max-width: 640px) {
+	.left {
+		display: none;
+	 }
+
+	.hamburger{
+		display: flex;
+	  width: 100%;
+	  background: black;
+	  font-family: 'Open Sans', sans-serif;
+		justify-content: center;
+	 }
+
+	.navicon{
+	  font-size: 25px;
+	  margin: 5px 15px;
+	  color: seashell;
+	 }
+
+	.dropdown{
+	  padding-left: 0;
+	  margin: 0;
+	  list-style: none;
+	  display: none;
+		width: 100%;
+	 }
+
+	.dropdown li{
+	  font-size: 24px;
+	  padding: 15px;
+	  width: 100%;
+	  background: black;
+	  border-bottom: 1px solid black;
+	}
+
+	.dropdown li:last-child{
+	  border-bottom: none;
+	 }
+
+	.dropdown a:hover{
+	  background: black;
+	 }
+}
+
 /* Mobile Portrait */
 
 @media screen and (device-aspect-ratio: 40/71) and (max-device-width: 640px) {
@@ -70,7 +123,7 @@ nav > ul > li > a {
 		display: flex;
 	  width: 100%;
 	  background: black;
-	  font-family: 'Inconsolata', sans-serif;
+	  font-family: 'Open Sans', sans-serif;
 		justify-content: center;
 	 }
 
@@ -117,7 +170,7 @@ nav > ul > li > a {
 		display: flex;
 	  width: 100%;
 	  background: black;
-	  font-family: 'Inconsolata', sans-serif;
+	  font-family: 'Open Sans', sans-serif;
 		justify-content: center;
 	 }
 

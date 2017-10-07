@@ -2,7 +2,7 @@
 @import url("header.css");
 
 body {
-	font-family: 'Inconsolata', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	background: #6190E8;
 	/* fallback for old browsers */
 	background: -webkit-linear-gradient(to right, #A7BFE8, #6190E8);
@@ -25,6 +25,7 @@ section {
 }
 
 h1 {
+	font-size: 56px;
 	font-weight: 700;
 	text-align: center;
 	margin: 10% 0 0 0;
