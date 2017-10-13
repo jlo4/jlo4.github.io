@@ -80,23 +80,49 @@ img {
 #contact {
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	text-align: center;
+	width: 45%;
+}
+
+#contactForm {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+.getContactInfo {
+	margin: .5% 0;
+	text-align: center;
+	width: 50%;
+}
+
+.getContactText {
+	width: 65%;
+}
+
+#myContactLinks {
+	display: flex;
+	flex-direction: column;
 	width: 15%;
 }
 
 .mylinks {
 	display: flex;
-	justify-content: space-between;
 	align-items: baseline;
+	justify-content: space-between;
+	width: 25%;
 }
 
 #github {
 	color: inherit;
+	margin: 0 50% 0 50%;
 	text-decoration: none;
 }
 
 #linkedin {
 	color: inherit;
+	margin: 0 17% 0 50%;
 	text-decoration: none;
 }
 
