@@ -4,9 +4,9 @@ Visit the project website at [jlo4.github.io](https://jlo4.github.io)
 
 This is a collection of projects from [Free Code Camp](https://www.freecodecamp.org/) and [The Odin Project](https://www.theodinproject.com).
 
-## React projects
+<!--## React projects
 [Selkosanomat Flashcard App](https://github.com/jlo4/selkosanomat-flashcards) | [View in browser](http://flashcardapp.s3-website.eu-central-1.amazonaws.com) <br />
-
+-->
 ## Projects from Free Code Camp
 [Wiki Viewer](https://github.com/jlo4/wiki-viewer) | [View in browser](https://rawgit.com/jlo4/wiki-viewer/master/index.html) <br />
 [Twitch TV JSON](https://github.com/jlo4/twitch-json) | [View in browser](https://rawgit.com/jlo4/twitch-json/master/index.html) <br />
